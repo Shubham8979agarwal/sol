@@ -4,8 +4,8 @@ $lname = $_POST['lname'];
 $email = $_POST['email'];
 $payment_token = $_POST['payment_token'];
 
-$url="https://secure.networkmerchants.com/api/transact.php";
-$vars="security_key=tpXS7bM97WwuTv8sjRS4E6923vv28j78"
+$url="https://swipeport.transactiongateway.com/api/transact.php";
+$vars="security_key=6457Thfj624V5r7WUwc5v6a68Zsd6YEm"
 . "&type=sale"
 . "&amount=9.99"
 . "&first_name=" . $fname
