@@ -19,6 +19,5 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, $vars);
 curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
 curl_setopt($ch, CURLOPT_HEADER, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-echo $payment_token;
 
 ?>
